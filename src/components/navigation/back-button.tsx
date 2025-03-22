@@ -1,14 +1,13 @@
+// components/navigation/back-button.tsx
 import { ChevronLeftIcon } from "@heroicons/react/20/solid";
 import { useFormContext } from "react-hook-form";
 
 import { cn } from "@/utils";
+import { useMultiStep } from "@/multi-step";
 
-interface BackButtonProps {
-  onBack: (values: object) => void;
-}
-
-export default function BackButton({ onBack }: BackButtonProps) {
+export default function BackButton() {
   const { getValues } = useFormContext();
+  const { onBack } = useMultiStep();
   return (
     <button
       type="button"

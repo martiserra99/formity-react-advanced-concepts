@@ -1,4 +1,3 @@
-// schema.tsx
 import type { Schema, Form, Return, Cond } from "@formity/react";
 
 import { zodResolver } from "@hookform/resolvers/zod";

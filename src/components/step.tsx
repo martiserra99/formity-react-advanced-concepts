@@ -1,4 +1,3 @@
-// components/step.tsx
 import type { ReactNode } from "react";
 import type { UseFormProps } from "react-hook-form";
 

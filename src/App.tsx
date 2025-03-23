@@ -1,4 +1,3 @@
-// App.tsx
 import { useCallback, useState } from "react";
 
 import { Formity, OnReturn, ReturnOutput } from "@formity/react";

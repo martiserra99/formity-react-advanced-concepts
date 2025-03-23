@@ -1,4 +1,3 @@
-// multi-step/use-multi-step.ts
 import { useContext } from "react";
 
 import { MultiStepValue } from "./multi-step-value";

@@ -1,4 +1,3 @@
-// multi-step/multi-step.tsx
 import type { ReactNode } from "react";
 import type { OnNext, OnBack } from "@formity/react";
 
